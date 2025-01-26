@@ -1,0 +1,38 @@
+{
+    "Qwen2.5-Math-7B": {
+        "gsm8k-cot-test": {
+            "cot": {
+                "accuracy": 0.8301743745261562,
+                "n_samples": 1319
+            },
+            "tool": {
+                "n_samples": 0
+            }
+        },
+        "math-pal-test": {
+            "cot": {
+                "n_samples": 0
+            },
+            "tool": {
+                "n_samples": 0
+            }
+        },
+        "gsm8k-pal-test": {
+            "cot": {
+                "n_samples": 0
+            },
+            "tool": {
+                "n_samples": 0
+            }
+        },
+        "math-cot-test": {
+            "cot": {
+                "accuracy": 0.5632,
+                "n_samples": 5000
+            },
+            "tool": {
+                "n_samples": 0
+            }
+        }
+    }
+}

@@ -180,11 +180,12 @@ def main():
                 print(f"Skipping existing results at: {metric_path}")
                 continue
                 
-            # 添加路径处理
+            # Fix the test path resolution
             test_path = info['test_path']
             if not os.path.isabs(test_path):
-                # 将相对路径转换为绝对路径
-                test_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), test_path)
+                # Convert relative path to absolute path, using LLM-Math-Eval as base directory
+                base_dir = os.path.dirname(os.path.abspath(__file__))
+                test_path = os.path.join(base_dir, test_path)
             print(f"Absolute test path: {test_path}")
             print(f"Test path exists: {os.path.exists(test_path)}")
             

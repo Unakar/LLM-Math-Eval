@@ -4,8 +4,8 @@ import argparse
 configs = [
     {
         'output-dir': "outputs/Qwen2.5-Math-7B",
-        'model-path': "Qwen/Qwen2.5-Math-7B",
-        'tokenizer-path': "Qwen/Qwen2.5-Math-7B",
+        'model-path': "/home/t2vg-a100-G4-43/.cache/huggingface/hub/models--Qwen--Qwen2.5-Math-7B/snapshots/b101308fe89651ea5ce025f25317fea6fc07e96e",
+        'tokenizer-path': "/home/t2vg-a100-G4-43/.cache/huggingface/hub/models--Qwen--Qwen2.5-Math-7B/snapshots/b101308fe89651ea5ce025f25317fea6fc07e96e",
         'model-size': "7b",
         'overwrite': True,
         'use-vllm': True,
