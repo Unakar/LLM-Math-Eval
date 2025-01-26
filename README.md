@@ -46,7 +46,7 @@ If you use LLM-Math-Eval in your research, please cite our work using the follow
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/Unakar/LLM-Math-Eval}}
+  howpublished = {\url{https://github.com/UInakar/LLM-Math-Eval}}
 }
 ```
 
