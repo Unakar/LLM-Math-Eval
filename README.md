@@ -7,11 +7,12 @@ LLM-Math-Eval provides a standardized testing environment to assess how well lan
 ## Key Features
 
 ### Supported Benchmarks
-- **GSM8K** (Grade School Math 8K) - Elementary to middle school word problems
-- **MATH** - Advanced mathematical problems across various topics
-- **MMLU-STEM** - Science, Technology, Engineering, and Mathematics questions
-- **AGIEval** - Comprehensive evaluation of mathematical reasoning
-- **SAT** - Standard college admission test problems
+- **GSM8K** 
+- **MATH** 
+- **MMLU-STEM** 
+- **AGIEval** 
+- **SAT** 
+- ...
 
 
 ### Model Compatibility
