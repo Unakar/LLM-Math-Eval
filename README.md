@@ -41,12 +41,12 @@ If you use LLM-Math-Eval in your research, please cite our work using the follow
 
 ```bibtex
 @misc{llm-math-eval,
-  author = {Your Name},
+  author = {Unakar},
   title = {LLM-Math-Eval: A Comprehensive Framework for Evaluating Mathematical Reasoning in Large Language Models},
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/yourusername/LLM-Math-Eval}}
+  howpublished = {\url{https://github.com/UInakar/LLM-Math-Eval}}
 }
 ```
 
