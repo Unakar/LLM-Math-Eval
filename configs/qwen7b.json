@@ -1,0 +1,38 @@
+{
+    "gsm8k-cot-test": {
+        "test_path": "datasets/gsm8k/test.jsonl",
+        "language": "en",
+        "tasks": ["cot"],
+        "process_fn": "process_gsm8k_test",
+        "answer_extraction_fn": "extract_gsm_few_shot_cot_answer",
+        "eval_fn": "eval_last_single_answer",
+        "few_shot_prompt": "CoTGSMPrompt"
+    },
+    "gsm8k-pal-test": {
+        "test_path": "datasets/gsm8k/test.jsonl",
+        "language": "en",
+        "tasks": ["pal"],
+        "process_fn": "process_gsm8k_test",
+        "answer_extraction_fn": "placeholder",
+        "eval_fn": "eval_last_single_answer",
+        "few_shot_prompt": "PALGSMPrompt"
+    },
+    "math-cot-test": {
+        "test_path": "datasets/math/test.jsonl",
+        "language": "en",
+        "tasks": ["cot"],
+        "process_fn": "process_math_test",
+        "answer_extraction_fn": "extract_math_few_shot_cot_answer",
+        "eval_fn": "eval_math",
+        "few_shot_prompt": "MinervaMathPrompt"
+    },
+    "math-pal-test": {
+        "test_path": "datasets/math/test.jsonl",
+        "language": "en",
+        "tasks": ["pal"],
+        "process_fn": "process_math_test",
+        "answer_extraction_fn": "placeholder",
+        "eval_fn": "eval_math",
+        "few_shot_prompt": "PALMathPrompt"
+    }
+}
