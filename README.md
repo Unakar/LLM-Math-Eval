@@ -1,7 +1,5 @@
 # LLM-Math-Eval
 
-A comprehensive framework for evaluating the mathematical reasoning capabilities of Large Language Models (LLMs) across multiple mainstream benchmarks.
-
 ## Overview
 
 LLM-Math-Eval provides a standardized testing environment to assess how well language models perform on various mathematical tasks, from basic arithmetic to advanced problem-solving.
@@ -15,9 +13,6 @@ LLM-Math-Eval provides a standardized testing environment to assess how well lan
 - **AGIEval** - Comprehensive evaluation of mathematical reasoning
 - **SAT** - Standard college admission test problems
 
-### Reasoning Methods
-- **Program-Aided Language Models (PAL)** - Leverages code generation for problem-solving
-- **Chain of Thought (CoT)** - Step-by-step reasoning approach
 
 ### Model Compatibility
 Validated against leading LLM implementations:
@@ -26,12 +21,6 @@ Validated against leading LLM implementations:
 - Other popular open-source models
 
 ## Getting Started
-
-### Prerequisites
-[Add your prerequisites here]
-
-### Installation
-[Add installation steps here]
 
 ### Usage
 
